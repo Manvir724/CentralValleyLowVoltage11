@@ -1,5 +1,10 @@
+html{
+    background-color: tomato;
+    height: 100%;
+}
 body{
-    background-color: white;
+    background-color: lightblue;
+    height: 90%;
 }
 h1{
     text-align: center;
@@ -7,4 +12,27 @@ h1{
 img{
     display: block;
     margin: auto;
+}
+
+#wrapper
+{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    background-color: orange;
+    padding: 1rem;
+    
+}
+main{  
+    background-color: lime;
+    padding: 1rem; 
+    flex: 1;
+}
+footer{ 
+    background-color: yellow;
+    padding: 1rem;
+    
 }
